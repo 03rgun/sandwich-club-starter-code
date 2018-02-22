@@ -73,7 +73,7 @@ public class DetailActivity extends AppCompatActivity {
 
         origin.setText(sandwich.getPlaceOfOrigin());
         description.setText(sandwich.getDescription());
-        ingredients.setText(sandwich.getIngredients().toString()); //alt + enter type casted as CharSequence.
+        ingredients.setText(sandwich.getIngredients().toString()); //alt + enter type casted as CharSequence but it didn't work.
         alsoKnown.setText(sandwich.getAlsoKnownAs().toString());
     }
 }
